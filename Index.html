@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="style.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>HAS WAB</title>
+  
+	</head>
+	<body>
+		<header>
+			<div class="logo animate__animated animate__fadein animate__slower">
+				<img src="logo-white.png" alt="logo" class="logo-img" />
+				<h1 class="logo-title">HAS SUSI</h1>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="#jasa">FIND ME</a></li>
+					<li><a href="mailto:zeenetraliz@gmail.com">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta animate__animated animate__pulse animate__infinite infinite" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title animate__animated animate__backinleft animate__faster">Hay there,I'm has susi</p>
+				<p class="description animate__animated animate__backinrigh animate__fast">Programmer and musician From Village.</p>
+				<img src="edit_1.jpg" alt="dea afrizal foto 1" class="img-foto animate__animated animate__backinup "/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title animate__animated animate__rotatein">Saya adalah musisi </p>
+				<p class="description animate__animated animate__bouncein">Programmer hanya hobby.</p>
+				<div class="mt-10">
+					<button class="btn-cta  animate__animated animate__pulse animate__infinite infinite" onclick="redirWhatsapp()">Mari Kerjasama</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="jasa">
+						<div class="card-item">
+							<img src="in.png" alt="icon 1" class="icon"/>
+							<p class="card-title">linkedin</p>
+							<p class="card-description">susy anto</p>
+						</div>
+						<div class="card-item">
+							<img src="fb.png" alt="icon 2"  class="icon"/>
+							<p class="card-title">facebook</p>
+							<p class="card-description">has susi</p>
+						</div>
+						<div class="card-item">
+							<img src="ig.png" alt="icon 3"  class="icon"/>
+							<p class="card-title">intagram</p>
+							<p class="card-description">farher_rightway</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; has susi Website 2023</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/father_rightway"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6285700570775"
+			}
+		</script>
+	</body>
+</html>
